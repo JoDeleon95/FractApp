@@ -26,3 +26,6 @@ If this app will consume external data, investigate and list possible internet-b
 
 # WireFrame
 ![WireFrame](WireFrame.png)
+
+# ERD
+![ERD](FactAppERD.pdf)
