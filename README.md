@@ -7,21 +7,18 @@ of the Android project you created on Jan. 31. Be sure to commit and push after 
 What will your app be called? 
 The name of my application will be FractApp.
 
-What's the basic functionality of the app? The basic functionality of 
+What's the basic functionality of the app? The basic functionality of my Android app will draw multiple types of Fractal designs and allows you to zoom in and out to explore the intricacy of such creations. It has a responsive design with a multi-touch interface to explore intricate shapes and patterns. Also an interaction mode which allows the user to control color gradients and different sorts of textures that can change the display. 
 
-Construct at least 2 wireframe diagrams for your app; include them in the docs directory of your repository in PDF form. 
-A basic tool that can be used for wireframing can be found online at https://www.draw.io/; beyond that, feel free to use
-anything you want (e.g. Adobe XD), as long as it has the basic necessary features, and can save as PDF.
+Who would find this app useful or fun, and when would they use it? Anyone can download and use this app and find that it is very entertaining and a great way kill some time. It's entertaining eye catching design will mesmerize the user and capture them into an intricate world of never ending creations conisted of different dhapes and patterns.
 
-Who would find this app useful or fun, and when would they use it?
+Could this app be useful on its own, with no connection to the internet? Yes, although some features would require an internet connection the main purpose and fucntion of this app would not require any type of connection.
 
-Construct at least 2 user stories for your app. Write them as separate Markdown documents (i.e. files with an extension of 
-.md, with the contents formatted using Markdown), and put them in the docs directory of your repository.
+What sort of data would this app use or share if it had a connection to the internet? If connected to the internet the app will be able to pull andf share information regarding sharing their creation to a social media platform or downloading the file to a local drive or also saving it within a user profile implemented in the app. 
 
-Could this app be useful on its own, with no connection to the internet?
-
-What sort of data would this app use or share if it had a connection to the internet?
-
-If this app will consume external data, investigate and list possible internet-based sources for this data
+If this app will consume external data, investigate and list possible internet-based sources for this data.
 
 # User Stories
+
+* I'm just your day to day student, and when I always found myself having a little bit of extra time here and there I never quite knew what to do. I'd find myslef thinking so much about what to do I'd have already wasted all my extra time. Having downloaded the FractApp I've been able to efficiently kill time as well as being hands on and creating something so unique it such a little amount of time. 
+
+*
