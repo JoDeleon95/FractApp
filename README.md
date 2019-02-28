@@ -17,6 +17,9 @@ What sort of data would this app use or share if it had a connection to the inte
 
 If this app will consume external data, investigate and list possible internet-based sources for this data.
 
+# ERD
+[ERD](FactAppERD.pdf)
+
 # User Stories
 
 * I'm just your day to day student, and when I always found myself having a little bit of extra time here and there I never quite knew what to do. I'd find myslef thinking so much about what to do I'd have already wasted all my extra time. Having downloaded the FractApp I've been able to efficiently kill time as well as being hands on and creating something so unique it such a little amount of time. 
@@ -27,5 +30,3 @@ If this app will consume external data, investigate and list possible internet-b
 # WireFrame
 ![WireFrame](WireFrame.png)
 
-# ERD
-![ERD](FactAppERD.pdf)
