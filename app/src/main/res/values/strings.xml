@@ -1,3 +1,10 @@
 <resources>
   <string name="app_name">FractApp</string>
+  <string name="button_text">Motion</string>
+  <string name="button_mid">Color</string>
+  <string name="button_midR">Texture</string>
+  <string name="Motion">Motion</string>
+  <string name="Light">Light</string>
+  <string name="Texture">Texture</string>
+  <string name="Color">Color</string>
 </resources>
