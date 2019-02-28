@@ -22,3 +22,7 @@ If this app will consume external data, investigate and list possible internet-b
 * I'm just your day to day student, and when I always found myself having a little bit of extra time here and there I never quite knew what to do. I'd find myslef thinking so much about what to do I'd have already wasted all my extra time. Having downloaded the FractApp I've been able to efficiently kill time as well as being hands on and creating something so unique it such a little amount of time. 
 
 *
+
+
+# WireFrame
+![WireFrame](WireFrame.png)
