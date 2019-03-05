@@ -59,4 +59,12 @@
     app:layout_constraintLeft_toRightOf="@id/texture_button"
     app:layout_constraintRight_toRightOf="parent"/>
 
+  <ImageButton
+    android:id="@+id/select_button"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/select_view"
+    android:onClick="sendMessage"
+    />
+
 </android.support.constraint.ConstraintLayout>
