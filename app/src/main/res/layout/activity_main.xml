@@ -4,65 +4,59 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:padding="8dp"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   tools:context=".MainActivity">
 
   <ImageView
-    android:id="@+id/app_name"
+    android:id="@+id/fractal_image"
     android:layout_width="match_parent"
     android:layout_height="0dp"
-    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/motion_button"
     app:layout_constraintTop_toTopOf="parent"/>
 
   <Button
     android:id="@+id/motion_button"
     style="@android:style/Widget.Button.Toggle"
-    android:layout_width="80dp"
+    android:layout_width="0dp"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="8dp"
+    app:layout_constraintHorizontal_weight="1"
     android:onClick="sendMessage"
     android:text="@string/Motion"
     app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintHorizontal_bias="0.63"
-    app:layout_constraintLeft_toRightOf="@id/color_button"
-    app:layout_constraintRight_toLeftOf="parent"/>
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toLeftOf="@+id/light_button"/>
   <Button
     android:id="@+id/light_button"
     style="@android:style/Widget.Button.Toggle"
-    android:layout_width="80dp"
-    android:layout_height="46dp"
-    android:layout_marginBottom="8dp"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
     android:onClick="sendMessage"
     android:text="@string/Light"
+    app:layout_constraintHorizontal_weight="1"
     app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintHorizontal_bias="0.29"
-    app:layout_constraintLeft_toRightOf="parent"
-    app:layout_constraintRight_toLeftOf="@id/color_button"/>
+    app:layout_constraintLeft_toRightOf="@id/motion_button"
+    app:layout_constraintRight_toLeftOf="@+id/texture_button"/>
   <Button
     android:id="@+id/texture_button"
     style="@android:style/Widget.Button.Toggle"
-    android:layout_width="80dp"
-    android:layout_height="45dp"
-    android:layout_marginBottom="8dp"
-    android:layout_marginRight="24dp"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
     android:onClick="sendMessage"
     android:text="@string/Texture"
+    app:layout_constraintHorizontal_weight="1"
     app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintHorizontal_bias="0.39"
-    app:layout_constraintLeft_toRightOf="parent"
-    app:layout_constraintRight_toLeftOf="parent"/>
+    app:layout_constraintLeft_toRightOf="@id/light_button"
+    app:layout_constraintRight_toLeftOf="@+id/color_button"/>
   <Button
     android:id="@+id/color_button"
     style="@android:style/Widget.Button.Toggle"
-    android:layout_width="80dp"
+    android:layout_width="0dp"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="8dp"
-    android:layout_marginLeft="16dp"
     android:onClick="sendMessage"
     android:text="@string/Color"
+    app:layout_constraintHorizontal_weight="1"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintLeft_toRightOf="@id/texture_button"
-    app:layout_constraintRight_toLeftOf="parent"/>
+    app:layout_constraintRight_toRightOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>
