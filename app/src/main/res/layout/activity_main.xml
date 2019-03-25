@@ -11,6 +11,7 @@
     android:id="@+id/fractal_image"
     android:layout_width="match_parent"
     android:layout_height="0dp"
+    android:background="@drawable/download"
     app:layout_constraintBottom_toTopOf="@+id/motion_button"
     app:layout_constraintTop_toTopOf="parent"/>
 
@@ -58,13 +59,5 @@
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintLeft_toRightOf="@id/texture_button"
     app:layout_constraintRight_toRightOf="parent"/>
-
-  <ImageButton
-    android:id="@+id/select_button"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:background="@drawable/select_view"
-    android:onClick="sendMessage"
-    />
 
 </android.support.constraint.ConstraintLayout>

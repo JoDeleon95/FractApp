@@ -26,6 +26,8 @@ If this app will consume external data, investigate and list possible internet-b
 
 *
 
+#Documentation
+For more details on current classes and methods, see [Javadoc](docs/api/)
 
 # WireFrame
 ![WireFrame](WireFrame.png)

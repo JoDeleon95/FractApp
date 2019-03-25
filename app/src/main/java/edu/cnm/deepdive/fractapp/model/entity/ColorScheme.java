@@ -35,4 +35,6 @@ public class ColorScheme {
   public void setColorGradient(int colorGradient) {
     ColorGradient = colorGradient;
   }
+
+
 }
