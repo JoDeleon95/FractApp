@@ -30,7 +30,7 @@ What sort of data would this app use or share if it had a connection to the inte
 If this app will consume external data, investigate and list possible internet-based sources for this data.
 
 # ERD
-[ERD](FactAppERD.pdf)
+[ERD](TheRealERD.pdf)
 
 # User Stories
 
