@@ -10,4 +10,8 @@
 
   <style name="Theme">Theme</style>
 
+  <style name="SelectionCardTextTheme">Selection</style>
+
+  <style name="SelectionCard">Selection</style>
+
 </resources>

@@ -7,4 +7,6 @@
   <string name="Light">Light</string>
   <string name="Texture">Texture</string>
   <string name="Color">Color</string>
+  <string name="context_delete">delete</string>
+  <string name="title_selection">History</string>
 </resources>

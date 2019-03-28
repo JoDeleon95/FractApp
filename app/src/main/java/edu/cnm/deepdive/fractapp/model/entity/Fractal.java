@@ -1,11 +1,13 @@
 package edu.cnm.deepdive.fractapp.model.entity;
 
 import android.arch.persistence.room.ColumnInfo;
+import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 
-public class FractalType {
+@Entity
+public class Fractal {
 
-  @ColumnInfo(name = "fractaltype_id")
+  @ColumnInfo(name = "fractal_id")
   @PrimaryKey(autoGenerate = true)
   private long id;
 

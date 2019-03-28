@@ -11,7 +11,7 @@
     android:id="@+id/fractal_image"
     android:layout_width="match_parent"
     android:layout_height="0dp"
-    android:background="@drawable/download"
+    android:background="@drawable/mandelbrotimage"
     app:layout_constraintBottom_toTopOf="@+id/motion_button"
     app:layout_constraintTop_toTopOf="parent"/>
 

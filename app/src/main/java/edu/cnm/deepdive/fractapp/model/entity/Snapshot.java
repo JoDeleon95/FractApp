@@ -8,7 +8,7 @@ import android.arch.persistence.room.PrimaryKey;
 @Entity(
     foreignKeys = {
         @ForeignKey(
-            entity = FractalType.class,
+            entity = Fractal.class,
             parentColumns = "fractal_type_id", childColumns = "fractal_type_id",
             onDelete = ForeignKey.CASCADE
         ),
@@ -34,8 +34,8 @@ public class Snapshot {
   @ColumnInfo(name = "user_id", index = true)
   private int userId;
 
-  @ColumnInfo(name = "fractal_type_id", index = true)
-  private int fractalTypeId;
+  @ColumnInfo(name = "fractal_id", index = true)
+  private int fractalId;
 
   public long getId() {
     return id;
@@ -85,11 +85,11 @@ public class Snapshot {
     this.timestamp = timestamp;
   }
 
-  public int getFractalTypeId() {
-    return fractalTypeId;
+  public int getFractalId() {
+    return fractalId;
   }
 
-  public void setFractalTypeId(int fractalTypeId) {
-    this.fractalTypeId = fractalTypeId;
+  public void setFractalId(int fractalId) {
+    this.fractalId = fractalId;
   }
 }
