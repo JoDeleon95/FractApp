@@ -5,7 +5,7 @@ import android.app.Fragment;
 public class ImageFragment extends Fragment {
 
   private SelectionFragment selectionFragment;
-  
+
 
   /**
    * Sets the {@link SelectionFragment} to be refreshed on successful retrieval of an {@link
