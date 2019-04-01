@@ -1,0 +1,51 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "e0f071e09db719a0770b86ecf43ed3f1",
+    "entities": [
+      {
+        "tableName": "Fractal",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`fractal_id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `FractalTypeName` TEXT, `ColorSchemeId` INTEGER NOT NULL, `TextureId` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "fractal_id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "FractalTypeName",
+            "columnName": "FractalTypeName",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ColorSchemeId",
+            "columnName": "ColorSchemeId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "TextureId",
+            "columnName": "TextureId",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "fractal_id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"e0f071e09db719a0770b86ecf43ed3f1\")"
+    ]
+  }
+}
