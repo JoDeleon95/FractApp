@@ -41,7 +41,7 @@ If this app will consume external data, investigate and list possible internet-b
 # Documentation
 For more details on current classes and methods, see [Javadoc](docs/api/)
 
-[DDL](docs/ddl.md)
+[DDL](docs/api/ddl.md)
 
 # WireFrame
 ![WireFrame](WireFrame.png)
