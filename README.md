@@ -65,6 +65,7 @@ Samsung SM - G930U- On this emulator it seemed to work functionally okay. The ap
 
 ## Documentation and DDL
 For more details on current classes and methods, see [Javadoc](docs/api/)
+
 [DDL](docs/api/ddl.md)
 
 ### Licenses
