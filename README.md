@@ -1,23 +1,27 @@
 # FractApp
 
-Answer the following questions about your proposed Android project; write your answers in the README.md file
-of the Android project you created on Jan. 31. Be sure to commit and push after you modify README.md or add more files
-(wireframes, user stories, etc.) to the project!
 
-What will your app be called? 
-The name of my application will be FractApp given that it creates, you guessed it. Fractals.
 
-Why did you choose to develop this particular app? When I first saw the creations of the Mandelbrot set and Julie set and all the other fractals it looked very interesting and beautiful to make. The fact that you can continue to zoom in on the fractals and finding new and more intriquet designs the further you go it heavily inspired me to create one on my own. I find it a very peaceful and to be quite frank, pretty stress releiving.
+### Your aims or motivations for selecting the given topic for your project. That is, why did you choose to develop this particular project, and why is this (at least potentially) a useful or interesting project?
 
-A description of the current state of completion/readiness of your app. This should include a “hit list” of deficiencies: any unimplemented/incomplete elements, and known bugs, that would have to be implemented or corrected for a usable prototype, ordered with the most urgent items first? Well there was still quite a bit I needed to do to be able to say I'm done. I would have liked to completed the actual function of the application where you can phsycially zoom in/out on the mandelbrot display which would be #1 on my list. The following would come after such as a selection area that allows you to pick different fractal styles to make the experience more itriguing. I would have also liked to have completed a series of buttons on the main screen that change the motion, color, texture, and lighting type of the fractal. I have an app that displays an image of the Mandelbrot but does not do anything and I have added the buttons i was mentions to the main page but those as well do not do anything. Overall my app runs it just is about 50% away from completion.
+I selected this particular project because of its potential ability to positively effect the mental state of the user. I have seen while reasearching this particular topic that the creations that come from the Fractals help the user with anxiety and with relaxing the mind and body.  
 
-A list of aesthetic/cosmetic (not functional) improvements that you think would improve your app. This list should be ordered, with those that would give the most improvement (in your opinion) listed first. I think my app looks pretty good cosmetically, the only thing I would have liked to change my buttons and make those see through to flow better with the fractal display.
+But most of all this application will function at its core as a peaceful calming application.
 
-A list of functional stretch goals. These should be sorted either with those that would add the most utility at the top, or with those that would be the simplest to implement at the top. 
-1. Create a functioning fractal display.
-2. Create the poinch to zoom function to explore the fractal.
-3. Have functional buttons that do what they are supposed to.
-4. Create a sharing fragment that allows the user to share their images.
+### A “functional inventory” for that repository—i.e. what functional components of the overall project are implemented by code in that repository?
+
+  Currently the application in it's Alpha stage is mostly cosmetic but does show several locations and an included fractal image to show a sample image. 
+- A login screen powered by Google Sign In [Google Sign In](https://github.com/googlesamples/google-services/tree/master/android/signin)
+- Several fragments that the user can switch between in the future.  
+
+### A description of the current state of completion/readiness of this component, or your project as a whole. This should include a “hit list” of deficiencies: any unimplemented/incomplete elements, and known bugs, that would have to be implemented or corrected for a usable prototype (i.e. one that could be given to a skilled user for testing and feedback), ordered with the most urgent items first.
+
+This project is still in its Alpha phase of testing and deployment. While features are able to be viewed and the buttons and imnage are visually there, it is still unable to generate the fractals. This will be enabled in the beta version and this will include the main functionality package.
+
+My order of priorities:
+1. The Application runs algorithms to display a series of shapes of all sizes and color combinations.
+2. Implementing the code to generate the fractal image.
+3. Making the functionality of the buttons work and do the commans they are supposed to. 
 
 What's the basic functionality of the app? The basic functionality of my Android app will draw multiple types of Fractal designs and allows you to zoom in and out to explore the intricacy of such creations. It has a responsive design with a multi-touch interface to explore intricate shapes and patterns. Also an interaction mode which allows the user to control color gradients and different sorts of textures that can change the display. 
 
@@ -29,20 +33,84 @@ What sort of data would this app use or share if it had a connection to the inte
 
 If this app will consume external data, investigate and list possible internet-based sources for this data.
 
-# ERD
+### A list of platforms (Java versions, Android APIs, OS versions, specific hardware, etc.) on which you’ve tested the submitted version of this component of your project, any hardware/software/orientation restrictions that you’re aware of. (This includes restrictions on device language, orientation, etc.)
+
+#### Devices
+
+Motorola G6 API 26 - On this device it seemed to work functionally okay. The app was able to run and open successfully.
+
+#### Emulators
+
+Nexus 5X API 24 - On this emulator it seemed to work functionally okay. The app was able to run and open successfully.
+
+Samsung SM - G930U- On this emulator it seemed to work functionally okay. The app was able to run and open successfully.
+
+### For client side components, a list of aesthetic/cosmetic (not functional) improvements that you think would improve this component. This list should be ordered, with those that would give the most improvement (in your opinion) listed first.
+
+- Ensuring that this application will run on a variety of devices, more field testing. 
+- Improving User Navigability and Understanding from the Beginning to End point.
+- Allowing Users to become more hands on and create their own fractal images.
+- Improving the App performance on a variety of hardware. 
+
+### A list of functional stretch goals. These should be sorted either with those that would add the most utility at the top, or with those that would be the simplest to implement at the top.
+
+- Improve User Experience
+- Have a fully functioning application
+
+### Links to the most recent wireframes and up-to-date user stories for your project.
+
+[WireFrame](WireFrame.png)
 [ERD](TheRealERD.pdf)
 
-# User Stories
-
-* I'm just your day to day student, and when I always found myself having a little bit of extra time here and there I never quite knew what to do. I'd find myslef thinking so much about what to do I'd have already wasted all my extra time. Having downloaded the FractApp I've been able to efficiently kill time as well as being hands on and creating something so unique it such a little amount of time. 
-
-* I'm a pretty stressed out person dealing with all my day to day duties and being responsible for so much I actually downloaded the FractApp which seemed to have helped me take off some stress and to remind me to take things slow and clear my mind from all the stress and it helps me relax.
-
-# Documentation
+## Documentation and DDL
 For more details on current classes and methods, see [Javadoc](docs/api/)
-
 [DDL](docs/api/ddl.md)
 
-# WireFrame
-![WireFrame](WireFrame.png)
+### Licenses
+
+Copyright 2019 Josh DeLeon & Deep Dive Coding
+
+Licensed under the Apache License, Version 2.0 (the “License”); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+[Full (including 3rd party) licenses and copyrights](https://github.com/teamabqwifinder/ABQ-WiFinder-Pre-Planning/blob/master/Copyright.md)
+
+### Instructions for Building FractApp
+
+1. Clone the repository into a local Android Studio or preferred IDE project.
+
+2. Open up Application on your IDE and run through emulator or personal Android.
+
+3. Build the device with a minimum of API 24. 
+
+### Instructions for Running FractApp
+
+1. The Google Sign-In Screen will load upon starting the application.
+
+2. After Sign-In, the User will be taken to the main screen which will display the .
+
+3. The main navigation is through the side drawer, click the horizontal three bars in the upper left corner of the screen.
+
+4. This will reveal a side navigation drawer with options for favorite locations, home screen and settings.
+
+5. Click on the Home screen to see a list view of all locations that are currently enabled for the application. Depending on which version of application you are using.
+
+#### Motion
+
+- This will give the user the ability to change the motion of the fractals to provide a more immersive experience. 
+
+#### Light
+
+- This button will allow the user to change the light, such as a more darker or brighter light tone.
+
+#### Texture
+
+- This will give the user the ability to explore different types of textures of the fractal to give more the user the chance to craete more unique creations. 
+
+#### Color
+
+- This feature allows the user to change the color opactity that provides the user with ultimate customizable creations.
 
