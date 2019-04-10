@@ -92,13 +92,11 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 1. The Google Sign-In Screen will load upon starting the application.
 
-2. After Sign-In, the User will be taken to the main screen which will display the .
+2. After Sign-In, the User will be taken to the main screen which will be the main Fractal display.
 
-3. The main navigation is through the side drawer, click the horizontal three bars in the upper left corner of the screen.
+3 Once the user is on the main page they have the ability to pinch to zoom the fractal.
 
-4. This will reveal a side navigation drawer with options for favorite locations, home screen and settings.
-
-5. Click on the Home screen to see a list view of all locations that are currently enabled for the application. Depending on which version of application you are using.
+4. The user also can use the buttons to change and customize the Fractal display to their liking.
 
 #### Motion
 
