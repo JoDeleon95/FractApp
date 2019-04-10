@@ -57,9 +57,10 @@ Samsung SM - G930U- On this emulator it seemed to work functionally okay. The ap
 - Improve User Experience
 - Have a fully functioning application
 
-### Links to the most recent wireframes and up-to-date user stories for your project.
+### Links to the most recent wireframes and up-to-date ERD for your project.
 
 [WireFrame](WireFrame.png)
+
 [ERD](TheRealERD.pdf)
 
 ## Documentation and DDL
