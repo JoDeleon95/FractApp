@@ -9,4 +9,21 @@
   <string name="Color">Color</string>
   <string name="context_delete">delete</string>
   <string name="title_selection">History</string>
+  <string name="title_activity_login">Sign in</string>
+  <string name="client_id">74069258588-t94qjvo38v2gj2nbnnmvb3pr6dh26j8r.apps.googleusercontent.com</string>
+  <string name="sign_in_error">Unable to log in with the provided credentials</string>
+
+  <!-- Strings related to login -->
+  <string name="prompt_email">Email</string>
+  <string name="prompt_password">Password (optional)</string>
+  <string name="action_sign_in">Sign in or register</string>
+  <string name="action_sign_in_short">Sign in</string>
+  <string name="error_invalid_email">This email address is invalid</string>
+  <string name="error_invalid_password">This password is too short</string>
+  <string name="error_incorrect_password">This password is incorrect</string>
+  <string name="error_field_required">This field is required</string>
+  <string name="permission_rationale">"Contacts permissions are needed for providing email
+    completions."
+  </string>
+  <string name="sign_out">sign out</string>
 </resources>
