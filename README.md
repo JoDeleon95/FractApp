@@ -12,7 +12,7 @@ But most of all this application will function at its core as a peaceful calming
 
   Currently the application in it's Alpha stage is mostly cosmetic but does show several locations and an included fractal image to show a sample image. 
 - A login screen powered by Google Sign In [Google Sign In](https://github.com/googlesamples/google-services/tree/master/android/signin)
-- Several fragments that the user can switch between in the future.  
+- Several fragments that will evenatually perform certain functions.  
 
 ### A description of the current state of completion/readiness of this component, or your project as a whole. This should include a “hit list” of deficiencies: any unimplemented/incomplete elements, and known bugs, that would have to be implemented or corrected for a usable prototype (i.e. one that could be given to a skilled user for testing and feedback), ordered with the most urgent items first.
 
