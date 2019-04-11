@@ -12,7 +12,7 @@ But most of all this application will function at its core as a peaceful calming
 
   Currently the application in it's Alpha stage is mostly cosmetic but does show several locations and an included fractal image to show a sample image. 
 - A login screen powered by Google Sign In [Google Sign In](https://github.com/googlesamples/google-services/tree/master/android/signin)
-- Several fragments that the user can switch between in the future.  
+- Several fragments that will evenatually perform certain functions.  
 
 ### A description of the current state of completion/readiness of this component, or your project as a whole. This should include a “hit list” of deficiencies: any unimplemented/incomplete elements, and known bugs, that would have to be implemented or corrected for a usable prototype (i.e. one that could be given to a skilled user for testing and feedback), ordered with the most urgent items first.
 
@@ -78,7 +78,7 @@ http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
-[Full (including 3rd party) licenses and copyrights](https://github.com/teamabqwifinder/ABQ-WiFinder-Pre-Planning/blob/master/Copyright.md)
+[Full (including 3rd party) licenses and copyrights](https://github.com/JoDeleon95/FractApp/blob/master/Copyright.md)
 
 ### Instructions for Building FractApp
 
